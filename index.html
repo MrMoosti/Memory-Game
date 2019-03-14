@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Meta Tags -->
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+    <!-- Audiowide & Roboto Font -->
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <title>Memory</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Memory Game</h1>
+    </div>
+    <!-- This is the Memory game grid -->
+    <div id="memoryCardParent" class="card"></div>
+
+    <!-- My scoreboard -->
+    <div id="myScore" class="scoreboard-box">
+        <h2 class="score-header">Scoreboard</h2>
+        <p id="current-score" class="score-text" style="color: #cdcfd3;">0</p>
+        <h2 class="score-header">Time</h2>
+        <p id="current-time" class="score-text" style="color: #cdcfd3;">00:00</p>
+        <h2 class="score-header">Lives</h2>
+        <p id="current-lives" class="score-text" style="color: #cdcfd3;">5</p>
+    </div>
+
+    <!-- Top list -->
+    <div id="highscoreList" class="highscoreboard-box">
+        <h2 class="score-header">Scoreboard</h2>
+        <p class="score-highscore-text" id="0"></p>
+        <p class="score-highscore-text" id="1"></p>
+        <p class="score-highscore-text" id="2"></p>
+        <p class="score-highscore-text" id="3"></p>
+        <p class="score-highscore-text" id="4"></p>
+    </div>
+
+    <script src="memory.js"></script>
+</body>
+</html>

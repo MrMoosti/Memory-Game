@@ -1,0 +1,97 @@
+/* Stylesheet */
+
+body, html {
+    margin: 0;
+}
+
+body {
+    background-image: url('https://orig00.deviantart.net/0ef4/f/2018/163/8/8/_custom_box_background__aesthetic_is_dead_by_king_lulu_deer-dce61tw.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    background: -webkit-linear-gradient(#ff2bbb, #8d2aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.scoreboard-box,
+.highscoreboard-box,
+.card {
+    margin: 0 auto;
+    overflow: auto;
+    background-color: rgb(206, 66, 244, 0.7);
+    border: 1px solid rgb(206, 66, 244);
+    box-shadow: 3px 4px 10px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.card {
+    font-size: 0;
+    width: 400px;
+    height: 400px;
+    margin-top: 300px;
+}
+
+    .memory-card {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 87.5px;
+        height: 87.5px;
+        border-radius: 5px;
+        background-color: rgb(151, 152, 160);
+    }
+
+        .memory-card:hover {
+            background-color: rgb(97, 108, 191);
+            cursor: pointer;
+        }
+
+        .memory-card-item {
+            font-size: 45px;
+            margin-left: 21.875px;
+            margin-top: 21.875px;
+            color: rgba(119, 120, 132, 0);
+        }
+
+.scoreboard-box, .highscoreboard-box {
+    position: absolute;
+    top: 25%;
+    width: 200px;
+    height: 350px;
+}
+    .scoreboard-box {
+        left: 0;
+    }
+
+    .highscoreboard-box {
+        right: 0;
+    }
+
+    .score-header,
+    .score-text,
+    .score-highscore-text {
+        text-align: center;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+
+        .score-header {
+            font-size: 1.8em;
+        }
+
+        .score-text {
+            font-size: 1.3em;
+        }
+
+        .score-highscore-text {
+            padding-left: 10px;
+            text-align: left;
+            font-size: 1.3em;
+        }
